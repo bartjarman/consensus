@@ -7,22 +7,22 @@ body {
 	font-size:16px;
 }
 @font-face {
-	font-family: 'KreonBold';
-	src: url('../fonts/kreon-bold-webfont.eot');
+	font-family: 'Georgia';
+/* 	src: url('../fonts/kreon-bold-webfont.eot');
 	src: url('../fonts/kreon-bold-webfont.eot?#iefix') format('embedded-opentype'),
 	url('../fonts/kreon-bold-webfont.woff') format('woff'),
 	url('../fonts/kreon-bold-webfont.ttf') format('truetype'),
-	url('../fonts/kreon-bold-webfont.svg#KreonBold') format('svg');
+	url('../fonts/kreon-bold-webfont.svg#KreonBold') format('svg'); */
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
-	font-family: 'kreonlight';
-	src: url('../fonts/kreon-light-webfont.eot');
+	font-family: 'Georgia';
+/* 	src: url('../fonts/kreon-light-webfont.eot');
 	src: url('../fonts/kreon-light-webfont.eot?#iefix') format('embedded-opentype'),
 	url('../fonts/kreon-light-webfont.woff') format('woff'),
 	url('../fonts/kreon-light-webfont.ttf') format('truetype'),
-	url('../fonts/kreon-light-webfont.svg#kreonlight') format('svg');
+	url('../fonts/kreon-light-webfont.svg#kreonlight') format('svg'); */
 	font-weight: normal;
 	font-style: normal;
 }
@@ -77,20 +77,20 @@ body {
 	color:#797979;
 	font-weight:normal;
 	font-size:16px;
-	font-family: 'KreonBold';
+	font-family: 'Georgia';
 }
 #background #page #header ul.navigation li a:hover {
 	background:url("../images/button.png");
 	background-position: 0 0;
 	background-repeat:no-repeat;
 	color:#ffffff;
-	font-family: 'KreonBold';
+	font-family: 'Georgia';
 }
 #background #page #header ul.navigation li a.active {
 	background:url("../images/button.png");
 	background-repeat:no-repeat;
 	color:#ffffff;
-	font-family: 'KreonBold';
+	font-family: 'Georgia';
 }
 /**-------------- End Navigation style ---------------**/
 #background #page #body {
@@ -115,19 +115,19 @@ body {
 }
 #background #page #body .featured ul li h2 {
 	color:#ffffff;
-	font-family: 'KreonBold';
+	font-family: 'Georgia';
 	font-weight:normal;
 }
 #background #page #body .featured ul li h2 a {
 	color:#ffffff;
-	font-family: 'KreonBold';
+	font-family: 'Georgia';
 	font-size:43px;
 	text-decoration:none;
 	font-weight:normal;
 }
 #background #page #body .featured ul li p {
 	color:#fbfbfb;
-	font-family: 'kreonlight';
+	font-family: 'Georgia';
 	font-size:14px;
 	line-height:22px;
 	text-align:justify;
@@ -135,7 +135,7 @@ body {
 }
 #background #page #body .featured ul li p a {
 	color:#fbfbfb;
-	font-family: 'kreonlight';
+	font-family: 'Georgia';
 	font-size:14px;
 }
 #background #page #body .featured ul li p a:hover {
@@ -203,7 +203,7 @@ body {
 	text-decoration:none;
 	text-align:center;
 	color:#024ca2;
-	font-family: 'KreonBold';
+	font-family: 'Georgia';
 	font-weight:normal;
 }
 #background #page #body #section .footer .body ul.article li p {
@@ -255,7 +255,7 @@ body {
 	text-align:center;
 	color:#ffffff;
 	margin:20px 0;
-	font-family: 'KreonBold';
+	font-family: 'Georgia';
 	font-size:16px;
 	font-weight:normal;
 	text-shadow:0 1px 1px #327d33;
@@ -301,14 +301,14 @@ body {
 #background #page #body #content div.details h3 {
 	margin:0;
 	padding:0;
-	font-family: 'KreonBold';
+	font-family: 'Georgia';
 	font-size:19px;
 	color: #242d72;
 	font-weight:normal;
 }
 #background #page #body #content div.details h3 a {
 	color: #242d72;
-	font-family: 'KreonBold';
+	font-family: 'Georgia';
 	font-size: 19px;
 	margin-top: 0;
 	text-decoration: none;
@@ -337,7 +337,7 @@ body {
 	background: url("../images/button.png") no-repeat scroll 0 -315px transparent;
 	color: #FFFFFF;
 	display: inline-block;
-	font-family: 'KreonBold';
+	font-family: 'Georgia';
 	font-weight: normal;
 	height: 25px;
 	line-height: 23px;
@@ -456,136 +456,7 @@ body {
 	padding-top:10px;
 }
 /*************End of About Style*******************/
-/*************Start of Blog Style*******************/
-#background #page #body ul#article {
-	margin:0;
-	padding:0;
-	list-style-type:none;
-}
-#background #page #body ul#article li {
-	padding:0 0 30px 0;
-	background: url("../images/separator-vertical.gif");
-	background-repeat:repeat-x;
-	background-position:bottom;
-	overflow:hidden;
-	margin-bottom:30px;
-}
-#background #page #body ul#article li:last-child {
-	background-image:none;
-}
-#background #page #body ul#article li.last {
-	background-image:none;
-}
-#background #page #body ul#article li img {
-	border:0;
-	margin-right:20px;
-	float:left;
-}
-#background #page #body ul#article li h2 {
-	margin-top:0;
-	margin-bottom: 10px;
-	font-family: 'KreonBold';
-	font-size:19px;
-	color: #242d72;
-	font-weight:normal;
-}
-#background #page #body ul#article li h2 a {
-	margin-top:0;
-	margin-bottom: 10px;
-	font-family: 'KreonBold';
-	font-size:19px;
-	color: #242d72;
-	text-decoration:none;
-	font-weight:normal;
-	text-shadow: 0 1px 1px #fefcfc;
-}
-#background #page #body ul#article li h2 a:hover {
-	color: #242d72;
-}
-#background #page #body ul#article li p {
-	margin-top:0;
-	font-family: Georgia;
-	font-size:14px;
-	color: #787979;
-	text-shadow:0 1px 0 #fefefb;
-	line-height:22px;
-}
-#background #page #body ul#article li p a {
-	margin-top:0;
-	font-family: Georgia;
-	font-size:14px;
-	color: #787979;
-}
-#background #page #body ul#article li p a:hover {
-	color:#007fde;
-}
-#background #page #body ul#article li a.readmore {
-	background: url("../images/button.png") no-repeat scroll 0 -315px transparent;
-	height:25px;
-	width:96px;
-	display:inline-block;
-	line-height:24px;
-	font-size:14px;
-	color:#ffffff;
-	font-family: 'kreonregular';
-	font-weight:normal;
-	text-align:center;
-	text-decoration:none;
-	text-shadow: 0 2px 1px #2f442e;
-}
-#background #page #body ul#article li a.readmore:hover {
-	background: url("../images/button.png") no-repeat scroll 0 -240px transparent;
-}
-#background #page #body ul#article li span.date {
-	float:right;
-	font-style:italic;
-	color:#c0c0c0;
-	font-family: Georgia;
-	font-weight:normal;
-	font-size:12px;
-}
-#background #page #body #section .footer .body div.paging {
-	width:880px;
-	height:50px;
-	margin:0 auto;
-	text-align:center;
-	line-height:50px;
-}
-#background #page #body #section .footer .body div.paging a {
-	color:#131313;
-	text-decoration:none;
-	font-family:Arial;
-	font-size:13px;
-}
-#background #page #body #section .footer .body div.paging a:hover {
-	color:#4faa1c;
-}
-#background #page #body #section .footer .body div.paging a span:hover {
-	color:#4faa1c;
-}
-#background #page #body #section .footer .body div.paging a span {
-	display:inline;
-	padding:0 5px;
-	color:#bebdbd;
-}
-#background #page #body #section .footer .body div.paging ul {
-	margin:0;
-	padding:0;
-	list-style-type:none;
-	width:auto;
-	display:inline;
-}
-#background #page #body #section .footer .body div.paging ul li {
-	display:inline;
-	padding:0 4px;
-}
-#background #page #body #section .footer .body div.paging ul li a {
-	text-decoration:none;
-	color:#bebdbd;
-	font-family:Arial;
-	font-size:13px;
-}
-/*************End of Blog Style*******************/
+
 /*************Start of footer Style*******************/
 #background #page #footer {
 	width:950px;
