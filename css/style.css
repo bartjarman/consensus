@@ -3,11 +3,12 @@ body {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
+  background: linear-gradient(to bottom, #e3f2fd, #ffffff);
 }
 
 /* Style the header */
 header {
-  background-color: lightgray;
+  background: linear-gradient(to bottom, #00b8d4, #0052cc);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -31,7 +32,7 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 /* Style the introduction section */
@@ -39,17 +40,19 @@ section:first-of-type {
   padding: 20px;
 }
 
-/* Style the featured games section */
-.featured-games {
-  display: flex;
-  justify-content: space
+.featuredh2 {
+	padding: 20px;
+	font-size: 20px;
+}
 
-.image-rotator {
+
+/* Style the rotator */
+/* .image-rotator {
   position: absolute;
-  top: 0;
+  top: 80;
   right: 0;
-  width: 300px;
-  height: 300px;
+  width: 20%;
+  height: 20%;
   overflow: hidden;
 }
 
@@ -67,4 +70,13 @@ section:first-of-type {
   100% {
     transform: translateY(-100%);
   }
-}
+} */
+
+
+
+/* Style the featured games section */
+.featured-games {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 40px;
+  
