@@ -1,0 +1,68 @@
+/* /* Add some basic styling to the page */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #e3f2fd, #ffffff);
+}
+
+/* Style the header */
+header {
+  background: linear-gradient(to bottom, #00b8d4, #0052cc);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Style the footer section */
+.content {
+	font-size: 12px;
+	text-align: right;
+}
+
+
+/* Style the introduction section */
+section:first-of-type {
+  padding: 20px;
+}
+
+.featuredh2 {
+	padding: 20px;
+	font-size: 20px;
+}
+
+.featuredp {
+	padding: 20px;
+	font-size: 15px;
+}
+
+
+/* Style the featured games section */
+.featured-games {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 40px;
+  
+  
+ */

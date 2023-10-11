@@ -1,67 +1,131 @@
-/* Add some basic styling to the page */
 body {
-  font-family: sans-serif;
-  margin: 0;
-  padding: 0;
-  background: linear-gradient(to bottom, #e3f2fd, #ffffff);
+    font-family: 'Lato';
+    background-image: url('../images/background.jpg');
+	background-size: cover;
+    background-position: center; 
+    color: #333;
+    display: flex;
+    justify-content: space-between;
 }
-
-/* Style the header */
 header {
-  background: linear-gradient(to bottom, #00b8d4, #0052cc);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 40px 20px;
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    display: flex;
+    align-items: center;
+}
+header img {
+    width: 300px;
+
 }
 
-header h1 {
-  margin: 0;
+button {
+    background-color: #68503A;
+    color: #E8DBB9;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px; /* rounding the corners */
+    cursor: pointer;
+    transition: 0.3s;
 }
 
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
+button:hover {
+    background-color: #5a442e; /* slightly darker shade for hover effect */
 }
 
-nav li {
-  margin-right: 20px;
+.content {
+    flex: 1;
+    padding: 100px 20px;
+}
+.featured-games {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.game {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+	padding: 0px 10px 50px;
+}
+.game img {
+    width: 300px;
+   /*  height: 200px; */
+    margin-bottom: 10px;
+	padding: 0px 50px;
+}
+
+nav {
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px 0px;
+    border-left: 1px solid #ddd;
+    background-color: #A89577; /* Added background color */
 }
 
 nav a {
-  text-decoration: none;
-  color: white;
+    color: #E8DBB9; /* Updated font color */
+    text-decoration: none;
+    margin: 10px 0;
+    transition: 0.3s; /* Added for hover transition */
 }
 
-/* Style the footer section */
-.content {
-	font-size: 12px;
-	text-align: right;
-}
-
-
-/* Style the introduction section */
-section:first-of-type {
-  padding: 20px;
-}
-
-.featuredh2 {
-	padding: 20px;
-	font-size: 20px;
-}
-
-.featuredp {
-	padding: 20px;
-	font-size: 15px;
+nav a:hover {
+    color: #C9B89B; /* Slightly lighter shade for hover effect */
 }
 
 
-/* Style the featured games section */
-.featured-games {
-  display: flex;
-  justify-content: space-evenly;
-  padding: 40px;
-  
-  
+nav a {
+    color: #333;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+
+footer {
+    /* background-color: #A89577; */
+    color: #333;
+   /*  padding: 2px 0; */
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-media-links {
+    display: flex;
+    gap: 20px; /* Spacing between icons */
+}
+
+.social-media-links a {
+    color: #E8DBB9;
+    text-decoration: none;
+    font-size: 24px; /* Adjust as needed */
+    transition: 0.3s;
+}
+
+.social-media-links a:hover {
+    color: #C9B89B; /* Slight color change on hover */
+}
+
+.ad-spot {
+    width: 160px;
+	margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
