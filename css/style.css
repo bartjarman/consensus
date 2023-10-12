@@ -1,7 +1,7 @@
 body {
     font-family: 'Lato';
     background-image: url('../images/background.jpg');
-	background-size: cover;
+	/* background-size: cover; */
     background-position: center; 
     color: #333;
     display: flex;
@@ -13,20 +13,21 @@ header {
     left: 0;
     width: 100%;
     padding: 10px 40px 20px;
-    /* background-color: rgba(255, 255, 255, 0.5); */
+	font-size: 18px;
     display: flex;
     align-items: center;
 }
 header img {
-    width: 300px;
+    width: 250px;
 
 }
 
 button {
-    background-color: #68503A;
+    display: flex;
+	background-color: #A89577;
     color: #E8DBB9;
     border: none;
-    padding: 10px 15px;
+    padding: 10px 40px;
     border-radius: 5px; /* rounding the corners */
     cursor: pointer;
     transition: 0.3s;
@@ -38,40 +39,51 @@ button:hover {
 
 .content {
     flex: 1;
-    padding: 100px 20px;
+    padding: 130px 20px 20px;
 }
 .featured-games {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
 }
+
 .game {
-    display: flex;
+    display: table;
+	width: auto; 
     flex-direction: row;
     align-items: center;
 	padding: 0px 10px 50px;
 }
+.gamerow {
+	display: table-row;
+	width: auto;
+}
+
+.gamecell{
+	display: table-column;
+	float: left;
+}
+
 .game img {
-    width: 300px;
+    width: 220px;
    /*  height: 200px; */
     margin-bottom: 10px;
 	padding: 0px 50px;
 }
 
 nav {
-    width: 160px;
+    width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    padding: 35px 0px;
-    border-left: 1px solid #ddd;
-    background-color: #A89577; /* Added background color */
+    padding: 35px 50px 50px;
 }
 
 nav a {
     color: #E8DBB9; /* Updated font color */
     text-decoration: none;
     margin: 10px 0;
+	padding: 10px 35px;
     transition: 0.3s; /* Added for hover transition */
 }
 
@@ -88,7 +100,6 @@ nav a {
 
 
 footer {
-    /* background-color: #A89577; */
     color: #333;
    /*  padding: 2px 0; */
     text-align: center;
@@ -123,7 +134,8 @@ footer {
 
 .ad-spot {
     width: 160px;
-	margin-top: 10px;
+	margin-top: 5px;
+	padding: 40px 0px;
     display: flex;
     align-items: center;
     justify-content: center;
