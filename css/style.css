@@ -25,6 +25,7 @@ header img {
 button {
     display: flex;
 	background-color: #A89577;
+
     color: #E8DBB9;
     border: none;
     padding: 10px 40px;
@@ -48,19 +49,19 @@ button:hover {
 }
 
 .game {
-    display: table;
+    display: flex;
 	width: auto; 
     flex-direction: row;
     align-items: center;
 	padding: 0px 10px 50px;
 }
 .gamerow {
-	display: table-row;
+	display: flex;
 	width: auto;
 }
 
 .gamecell{
-	display: table-column;
+	display: flex;
 	float: left;
 }
 
@@ -100,8 +101,6 @@ nav a {
 
 
 footer {
-    color: #333;
-   /*  padding: 2px 0; */
     text-align: center;
     width: 100%;
     position: fixed;
@@ -137,7 +136,7 @@ footer {
 	margin-top: 5px;
 	padding: 40px 0px;
     display: flex;
-    align-items: center;
+    align-items: right;
     justify-content: center;
     text-align: center;
 }
